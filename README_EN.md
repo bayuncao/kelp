@@ -1,0 +1,3 @@
+# kelp(beta) - AI-empowered intelligent code audit project
+
+`Kelp` is an intelligent AI auditing tool that comes with integrated `prompt` engineering. It includes various software engineering logic and reverse engineering `prompt` keywords for mainstream programming languages. Kelp combines code auditing, static program analysis, graph analysis, and flow analysis capabilities, along with advanced capabilities for validating vulnerability code(`Proof of Concept`) and crafting harmless attack payloads(`Harmless Attack Payload`).
