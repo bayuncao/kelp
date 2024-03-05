@@ -23,34 +23,28 @@
 - [文档链接](https://zalw1ah0mdh.feishu.cn/docx/M6ludduTloxmEExAeo5cScUcnTg?from=from_copylink)
 
 
-## 授权码
+## 特性
 
-`Kelp`采用一机一码绑定授权，在各操作系统中执行一下命令后，通过邮箱联系我们获取授权。
+- **跨平台支持**：Kelp AI支持Windows、MacOS和Linux，满足不同用户的需求。
+- **智能检测**：通过深度学习模型，Kelp AI能够准确识别各种复杂的代码问题，包括但不限于安全漏洞、性能瓶颈和代码质量问题。
+- **易于使用**：简洁直观的用户界面，使得用户即便没有深厚的安全背景知识也能轻松上手。
+- **持续更新**：定期更新AI模型，不断提升检测能力和覆盖更多的编程语言和框架。
 
-### Windows
+## 安装
 
-```cmd
-for /f "skip=1 delims=" %a in ('wmic cpu get name ^| findstr /v /r "^$"') do @if not defined cpuName set "cpuName=%a" & echo|set /p ="CPU Model: %cpuName% | CPU Cores: %NUMBER_OF_PROCESSORS% | OS: %OS% | Architecture: %PROCESSOR_ARCHITECTURE%"
-```
+请根据Releases下载最新版本的Kelp AI客户端，根据以下步骤进行安装。
 
-### Linux
+## 联系方式
+如果您有任何问题或建议，请通过以下方式联系我们：
 
-```bash
-当前版本暂不支持Linux操作系统，计划后续支持。
-```
-
-### Mac
-
-```bash
-echo "CPU Model: $(sysctl -n machdep.cpu.brand_string) | CPU Cores: $(sysctl -n hw.ncpu) | OS: $(uname -s) | Architecture: $(uname -m)"
-```
-
+邮件联系: kelp@@zing-craft.com
+QQ: MzY1NDMxNzY0(base64)
 
 ## 社区
 
 |    |    |
 |--------|--------|
-| ![微信](img/wechat.png)  | ![微信](img/planet.png) |
+| ![微信](img/wechat.png)  |  |
 
 
 ## Star 趋势
