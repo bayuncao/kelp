@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Logo -->
-  <img src="img/logo.png" alt="Logo">
+  <img src="img/logo-200.png" alt="Logo">
 </p>
 
 <div align="center">
